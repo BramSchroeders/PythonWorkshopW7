@@ -37,25 +37,20 @@ Use the Pandas library to do the following tasks:
 * What's the name of the beer with the lowest ABV?
 * What's the mean, standard deviation, and variance of  the scores?
 * How many styles of beer are represented? Write a list of all types to CSV file.
-* What's the average score
+* What's the average score and ABV for each beer style? What's the top 5?
+
+### Processing reviews and Score prediction
+
+## POS-tagging
+Part-of-speech tagging (POS-tagging) is the process of identifying parts of senteces and tag them. An example using NLTK can be found [here](http://www.nltk.org/book/ch05.html).
+
+* Use nltk to POS tag some reviews. This is relatively computational expensive so limit it to the first 100 reviews.
+* Filter the adjectives out of your POS-tagged sentences since they describe your beer. What's the top 5 most used adjectives?
+
+## Sentiment Analysis
+Sentiment analysis is automatically detecting the sentiment of a person, usually in writing. Different systems exist, but the sentiment is oftenly quantified as a number between -1 (negative) and 1 (positive) with 0 being neutral.
+
+* Use the requests library to perform a [this](http://text-processing.com/docs/sentiment.html) sentiment API. Limit yourself to 5 requests since the number of requests per day is limited.
+* Use VADER in nltk to perform sentiment analysis on your reviews. An example can be found [here](http://www.nltk.org/howto/sentiment.html). Add sentiment to the dataframe.
 
 
-
-
-<details><summary>CLICK ME</summary>
-<p>
-
-#### yes, even hidden code blocks!
-
-```python
-print("hello world!")
-```
-
-</p>
-</details>
-
-
-
-```python
-import numpy
-```
